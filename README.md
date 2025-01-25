@@ -1,43 +1,7 @@
-## Дискорд бот от разработки Adventure Time: Установка и Запуск
+# Dev-Bot
 
-Этот бот разработан командой Adventure Time SS14 в **образовательных целях** для изучения и тестирования возможностей Discord API и разработки ботов. **Он не предназначен для коммерческого использования.**
+This project is a fork of the original repository. I performed a complete refactoring of the code, which was accepted into the main project and merged. 
 
-**Этот бот использует библиотеку g4f исключительно для демонстрационных и образовательных целей.**
+The state of this fork represents the project immediately after my refactoring was merged. Please note that I am not responsible for any subsequent changes made to the main project after this point.
 
-**Мы придерживаемся всех правил Discord и несем полную ответственность за его использование.**
-
-### 1. Клонирование репозитория:
-```shell
-git clone https://github.com/AdventureTimeSS14/Dev-bot.git
-```
-### 2. Установка зависимостей:
-```shell
-cd Dev-bot
-pip install -r requirements.txt
-```
-
-### 3. Создание конфигурационного файла:
-
-Создайте файл .env рядом с main.py и вставьте в него свой токен Discord, PROXY и GITHUB:
-
-```.env
- DISCORD_KEY=*****
- PROXY=*****
- GITHUB=*****
-```
- 
-
-### 4. Запуск бота:
-```shell
-python main.py
-```
-
-### Важно:
-
-- Токен Discord является конфиденциальной информацией. Не делитесь им с другими.
-- Убедитесь, что у вас есть установленный Python и pip.
-- Если вы столкнулись с проблемами, ознакомьтесь с документацией Discord API.
-
-### Дополнительные замечания:
-
-- Этот бот может быть использован для различных задач, и в будущем будет дорабатываться.
+Thank you for your interest!
